@@ -1,0 +1,11 @@
+workingDirectory=./data/
+outputDirectory=./maps/
+namePrefix="class.nodr.soft.TT"
+vectorFileName=class.nodr.soft.TT.viz.vec
+sparseData=no
+isNormalized=yes
+randomSeed=17
+xSize=49
+ySize=49
+learnrate=0.7549
+numIterations=50000

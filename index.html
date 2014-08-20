@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Som-se by mail-go-russir-2014</title>
+    <title>som-se by mail-go-russir-2014</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -17,7 +17,7 @@
   <body>
 
       <header>
-        <h1>Som-se</h1>
+        <h1>som-se</h1>
         <p>Application of Self-Organizing Maps for Search Engine</p>
       </header>
 
@@ -40,12 +40,15 @@
       </nav>
       <section>
         <h3>
-<a name="welcome-to-application-of-self-organizing-maps-for-search-engine-tutorial" class="anchor" href="#welcome-to-application-of-self-organizing-maps-for-search-engine-tutorial"><span class="octicon octicon-link"></span></a>Welcome to Application of Self-Organizing Maps for Search Engine Tutorial.</h3>
+<a name="welcome-to-application-of-self-organizing-maps-for-search-engine-practice-session" class="anchor" href="#welcome-to-application-of-self-organizing-maps-for-search-engine-practice-session"><span class="octicon octicon-link"></span></a>Welcome to Application of Self-Organizing Maps for Search Engine Practice Session</h3>
+
+<h2>
+<a name="installation-instructions" class="anchor" href="#installation-instructions"><span class="octicon octicon-link"></span></a>Installation Instructions</h2>
 
 <p>If you are working under Ubuntu or other Linux distribution you may skip until the <strong>Install SOMToolbox</strong> section.</p>
 
-<h2>
-<a name="if-you-are-working-under-mac-os-x" class="anchor" href="#if-you-are-working-under-mac-os-x"><span class="octicon octicon-link"></span></a>If you are working under Mac OS X</h2>
+<h3>
+<a name="if-you-are-working-under-mac-os-x" class="anchor" href="#if-you-are-working-under-mac-os-x"><span class="octicon octicon-link"></span></a>If you are working under Mac OS X</h3>
 
 <p>On <strong>Mac OS X</strong> you need to install gnu <a href="http://www.gnu.org/software/coreutils/">coreutils</a>.
 One of the way to do it is using <a href="http://brew.sh">homebrew</a>
@@ -59,37 +62,43 @@ If you do not have it installed run the following command from the terminal (<st
 <pre><code>$ brew install coreutils
 </code></pre>
 
-<h2>
-<a name="install-somtoolbox" class="anchor" href="#install-somtoolbox"><span class="octicon octicon-link"></span></a>Install SOMToolbox</h2>
+<h3>
+<a name="install-somtoolbox" class="anchor" href="#install-somtoolbox"><span class="octicon octicon-link"></span></a>Install SOMToolbox</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>You may follow installation instructions at the official <a href="http://www.ifs.tuwien.ac.at/dm/somtoolbox/">The Java SOMToolbox</a> webpage. Or download the latest release from <a href="http://www.ifs.tuwien.ac.at/dm/download/somtoolbox_0.7.5-3.svn4280.tar.gz">here</a>. To do so from terminal run:</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+<pre><code>$ mkdir somtoolbox
+$ cd somtoolbox
+$ wget http://www.ifs.tuwien.ac.at/dm/download/somtoolbox_0.7.5-3.svn4280.tar.gz
+$ tar -xzf somtoolbox_0.7.5-3.svn4280.tar.gz
 </code></pre>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<h3>
+<a name="copy-tutorial-data-files" class="anchor" href="#copy-tutorial-data-files"><span class="octicon octicon-link"></span></a>Copy tutorial data files</h3>
+
+<p>You may follow the links at the top of the page to clone the current repository.
+Or (assuming you are still in <strong>sometoolox</strong> directory) run:</p>
+
+<pre><code>$ git clone https://github.com/mail-go-russir-2014/som-se.git data
+</code></pre>
+
+<h2>
+<a name="running-experiments" class="anchor" href="#running-experiments"><span class="octicon octicon-link"></span></a>Running Experiments</h2>
 
 <h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<a name="hit-histogram" class="anchor" href="#hit-histogram"><span class="octicon octicon-link"></span></a>Hit Histogram</h3>
 
 <h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<a name="u-matrix" class="anchor" href="#u-matrix"><span class="octicon octicon-link"></span></a>U-Matrix</h3>
 
 <h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<a name="u-matrix--cluster-borders" class="anchor" href="#u-matrix--cluster-borders"><span class="octicon octicon-link"></span></a>U-Matrix &amp; Cluster Borders</h3>
 
 <h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<a name="smoothed-data-histogram" class="anchor" href="#smoothed-data-histogram"><span class="octicon octicon-link"></span></a>Smoothed Data Histogram</h3>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<h3>
+<a name="cluster-feature-impact" class="anchor" href="#cluster-feature-impact"><span class="octicon octicon-link"></span></a>Cluster Feature Impact</h3>
       </section>
       <footer>
         <p>Project maintained by <a href="https://github.com/mail-go-russir-2014">mail-go-russir-2014</a></p>

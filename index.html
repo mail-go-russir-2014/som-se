@@ -40,13 +40,13 @@
       </nav>
       <section>
         <h3>
-<a name="welcome-to-application-of-self-organizing-maps-for-search-engine-practice-session" class="anchor" href="#welcome-to-application-of-self-organizing-maps-for-search-engine-practice-session"><span class="octicon octicon-link"></span></a>Welcome to Application of Self-Organizing Maps for Search Engine Practice Session</h3>
+<a name="welcome-to-application-of-self-organizing-maps-for-search-engine" class="anchor" href="#welcome-to-application-of-self-organizing-maps-for-search-engine"><span class="octicon octicon-link"></span></a>Welcome to Application of Self-Organizing Maps for Search Engine</h3>
+
+<h1>
+<a name="installation-instructions" class="anchor" href="#installation-instructions"><span class="octicon octicon-link"></span></a>Installation Instructions</h1>
 
 <h2>
-<a name="installation-instructions" class="anchor" href="#installation-instructions"><span class="octicon octicon-link"></span></a>Installation Instructions</h2>
-
-<h3>
-<a name="install-somtoolbox" class="anchor" href="#install-somtoolbox"><span class="octicon octicon-link"></span></a>Install SOMToolbox</h3>
+<a name="install-somtoolbox" class="anchor" href="#install-somtoolbox"><span class="octicon octicon-link"></span></a>Install SOMToolbox</h2>
 
 <p>You may follow installation instructions at the official <a href="http://www.ifs.tuwien.ac.at/dm/somtoolbox/">The Java SOMToolbox</a> webpage. Or download the latest release from <a href="http://www.ifs.tuwien.ac.at/dm/download/somtoolbox_0.7.5-3.svn4280.tar.gz">here (.tar.gz)</a> or <a href="http://www.ifs.tuwien.ac.at/dm/download/somtoolbox_0.7.5-3.svn4280.zip">here (.zip)</a>. To do so from terminal run:</p>
 
@@ -56,8 +56,8 @@ $ wget http://www.ifs.tuwien.ac.at/dm/download/somtoolbox_0.7.5-3.svn4280.tar.gz
 $ tar -xzf somtoolbox_0.7.5-3.svn4280.tar.gz
 </code></pre>
 
-<h3>
-<a name="if-you-are-working-under-mac-os-x" class="anchor" href="#if-you-are-working-under-mac-os-x"><span class="octicon octicon-link"></span></a>If you are working under Mac OS X</h3>
+<h2>
+<a name="if-you-are-working-under-mac-os-x" class="anchor" href="#if-you-are-working-under-mac-os-x"><span class="octicon octicon-link"></span></a>If you are working under Mac OS X</h2>
 
 <p>On <strong>Mac OS X</strong> you need to install gnu <a href="http://www.gnu.org/software/coreutils/">coreutils</a>.
 One of the way to do it is using <a href="http://brew.sh">homebrew</a>
@@ -76,8 +76,8 @@ If you do not have it installed run the following command from the terminal (<st
 <pre><code>$ sed -i .bak "s/readlink/greadlink/" somtoolbox.sh
 </code></pre>
 
-<h3>
-<a name="copy-tutorial-data-files" class="anchor" href="#copy-tutorial-data-files"><span class="octicon octicon-link"></span></a>Copy tutorial data files</h3>
+<h2>
+<a name="get-tutorial-data-files" class="anchor" href="#get-tutorial-data-files"><span class="octicon octicon-link"></span></a>Get tutorial data files</h2>
 
 <p>You may follow the links at the top of the page to clone the current repository.
 Or (assuming you are still in <strong>sometoolox</strong> directory) run:</p>
@@ -85,15 +85,17 @@ Or (assuming you are still in <strong>sometoolox</strong> directory) run:</p>
 <pre><code>$ git clone https://github.com/mail-go-russir-2014/som-se.git data
 </code></pre>
 
-<h2>
-<a name="running-experiments" class="anchor" href="#running-experiments"><span class="octicon octicon-link"></span></a>Running Experiments</h2>
+<h1>
+<a name="running-experiments" class="anchor" href="#running-experiments"><span class="octicon octicon-link"></span></a>Running Experiments</h1>
 
-<p>For Unix-like system users:</p>
+<h2>
+<a name="for-unix-like-system-users" class="anchor" href="#for-unix-like-system-users"><span class="octicon octicon-link"></span></a>For Unix-like system users:</h2>
 
 <pre><code>$ ./somtoolbox.sh SOMViewer -c ./data/class.nodr.soft.TT.cls -m ./data/class.nodr.soft.TT.map -t ./data/class.nodr.soft.TT.tv -u ./data/class.nodr.soft.TT.unit -v ./data/class.nodr.soft.TT.viz.vec -w ./data/class.nodr.soft.TT.wgt
 </code></pre>
 
-<p>For Windows users:</p>
+<h2>
+<a name="for-windows-users" class="anchor" href="#for-windows-users"><span class="octicon octicon-link"></span></a>For Windows users:</h2>
 
 <pre><code>$ somtoolbox.bat SOMViewer -c .\data\class.nodr.soft.TT.cls -m .\data\class.nodr.soft.TT.map -t .\data\class.nodr.soft.TT.tv -u .\data\class.nodr.soft.TT.unit -v .\data\class.nodr.soft.TT.viz.vec -w .\data\class.nodr.soft.TT.wgt
 </code></pre>
